@@ -1,0 +1,2853 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,400&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+body header .navbar {
+  border-bottom: 1px solid #5a5a5a;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+body header .navbar:hover {
+  background-color: #fff !important;
+}
+body header .navbar:hover .collapse .navbar-nav .nav-item .nav-link {
+  color: #5a5a5a !important;
+}
+body header .navbar:hover form .ui-selectmenu-text {
+  color: #5a5a5a;
+}
+body header .navbar .container .navbar-brand {
+  background-image: url("../images/haval_nav_log.png");
+  width: 140px;
+  height: 40px;
+  background-size: cover;
+  background-position: center center;
+}
+body header .navbar .container button {
+  border: none;
+}
+body header .navbar .container button:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+body header .navbar .container .collapse {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+body header .navbar .container .collapse .navbar-nav .nav-item {
+  margin: 0px 40px;
+}
+body header .navbar .container .collapse .navbar-nav .nav-item .nav-link {
+  color: #fff;
+  text-transform: uppercase;
+  -webkit-transition: 0.2s linear;
+  -o-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+body header .navbar .container .collapse .navbar-nav .nav-item .nav-link:hover {
+  color: #d7000f !important;
+}
+body header .navbar .container .collapse .navbar-nav .dropdown .dropdown-menu {
+  position: fixed;
+  top: 54px;
+  left: 0;
+  right: 0;
+  border: none;
+  border-radius: 0;
+  background-color: #f1f1f1;
+  overflow-x: hidden;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+body header .navbar .container .collapse .navbar-nav .dropdown .dropdown-menu::-webkit-scrollbar {
+  width: 4px;
+}
+body header .navbar .container .collapse .navbar-nav .dropdown .dropdown-menu::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+body header .navbar .container .collapse .navbar-nav .dropdown .dropdown-menu::-webkit-scrollbar-thumb {
+  background: #888;
+}
+body header .navbar .container .collapse .navbar-nav .dropdown .dropdown-menu::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+body header .navbar .container .collapse .navbar-nav .dropdown .dropdown-menu .dropdown-item {
+  margin: auto;
+  display: inline;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-transition: 0.2s linear;
+  -o-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+body header .navbar .container .collapse .navbar-nav .dropdown .dropdown-menu .dropdown-item:hover {
+  color: #d7000f;
+  background: none;
+}
+body header .navbar .container .collapse .navbar-nav .dropdown .dropdown-menu .dropdown-item:active {
+  background: none;
+}
+body header .navbar .container .collapse .navbar-nav .dropdown .dropdown-menu .row {
+  max-height: 50vh;
+}
+body header .navbar .container .collapse .navbar-nav .dropdown .dropdown-menu .row .col .dropdown-item {
+  width: 250px;
+  display: block;
+}
+body header .navbar .container .collapse .navbar-nav .dropdown .dropdown-menu .row .col .dropdown-item .card {
+  background: none;
+  border: none;
+}
+body header .navbar .container .collapse .navbar-nav .dropdown .dropdown-menu .row .col .dropdown-item .card .card-header {
+  padding: 0;
+  background: none;
+  border: none;
+}
+body header .navbar .container .collapse .navbar-nav .dropdown .dropdown-menu .row .col .dropdown-item .card .card-header .card-img-top {
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+body header .navbar .container .collapse .navbar-nav .dropdown .dropdown-menu .row .col .dropdown-item .card .card-body .card-title {
+  font-size: 1rem;
+}
+body header .navbar .container .collapse .navbar-nav .dropdown .dropdown-menu .row .col .dropdown-item:hover .card-img-top {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+body header .navbar .container .collapse .navbar-nav .dropdown .dropdown-menu.show {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+body header .navbar .container form {
+  position: relative;
+  left: 85%;
+}
+body header .navbar .container form .ui-selectmenu-button.ui-button {
+  width: 100%;
+}
+body header .navbar .container form .ui-button {
+  background: transparent;
+  border: none;
+  color: #ffffff;
+}
+body header .navbar .container form .ui-button:focus {
+  border: none;
+  outline: none;
+}
+body header .navbar .container form .ui-button:hover .ui-icon {
+  background: none;
+}
+body header .navbar .container form .ui-icon {
+  background: none;
+}
+body header .navbar .container form .ui-selectmenu-text {
+  margin: 0;
+  overflow: visible;
+}
+body main .haval-main-slider .carousel .carousel-inner .carousel-item .slide-cap {
+  position: absolute;
+  left: 6.25%;
+  bottom: 20%;
+}
+body main .haval-main-slider .carousel .carousel-inner .carousel-item .slide-cap a {
+  width: 3rem;
+  padding: 5px 35px;
+  text-decoration: none;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #ccc;
+  line-height: 0.5rem;
+  text-transform: uppercase;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+body main .haval-main-slider .carousel .carousel-inner .carousel-item .slide-cap a:hover {
+  color: #fff;
+  background-color: #d7000f;
+  border-color: #d7000f;
+}
+body main .haval-main-slider .carousel .carousel-control-next,
+body main .haval-main-slider .carousel .carousel-control-prev {
+  width: 5%;
+}
+body main .haval-main-bg {
+  width: 100%;
+  height: 100vh;
+}
+body main .haval-models {
+  position: relative;
+  background-image: url("../images/slider-bg.jpg");
+  background-color: #68879c;
+  background-size: 100% 100%;
+  background-position: bottom center;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+body main .haval-models::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 19%;
+  height: 100%;
+  z-index: 2;
+  background: -o-linear-gradient(left, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0)));
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+}
+body main .haval-models::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 19%;
+  height: 100%;
+  z-index: 2;
+  background: -o-linear-gradient(right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+  background: -webkit-gradient(linear, right top, left top, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0)));
+  background: linear-gradient(to left, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+}
+body main .haval-models .container-fluid .row {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+body main .haval-models .container-fluid .row .col-md-12 {
+  padding: 0;
+}
+body main .haval-models .container-fluid .row .section-title {
+  text-align: center;
+}
+body main .haval-models .container-fluid .row .section-title h2 {
+  font-size: 1.6em;
+  color: #5a5a5a;
+  text-transform: uppercase;
+}
+body main .haval-models .container-fluid .row .section-title .separator {
+  margin-bottom: 15px;
+}
+body main .haval-models .container-fluid .row .section-title .separator::after {
+  width: 50px;
+  display: block;
+  margin: auto;
+  content: "";
+  height: 1px;
+  background: #d7000f;
+  bottom: 0px;
+  left: 50%;
+  transition: width 0.8s ease, background-color 0.8s ease;
+  -webkit-transition: width 0.8s ease, background-color 0.8s ease;
+  -o-transition: width 0.8s ease, background-color 0.8s ease;
+  -ms-transition: width 0.8s ease, background-color 0.8s ease;
+  -moz-transition: width 0.8s ease, background-color 0.8s ease;
+}
+body main .haval-models .container-fluid .row .section-title .separator::before {
+  content: "";
+  display: block;
+  margin: auto;
+  left: 50%;
+  height: 1px;
+  width: 30px;
+  bottom: -10px;
+  background: #d7000f;
+  transition: width 0.8s ease, background-color 0.8s ease;
+  -webkit-transition: width 0.8s ease, background-color 0.8s ease;
+  -o-transition: width 0.8s ease, background-color 0.8s ease;
+  -ms-transition: width 0.8s ease, background-color 0.8s ease;
+  -moz-transition: width 0.8s ease, background-color 0.8s ease;
+  margin-bottom: 4px;
+}
+body main .haval-models .container-fluid .row .carousel-nav .carousel-cell {
+  padding: 40px 0px;
+  height: 30px;
+  min-width: 110px;
+}
+body main .haval-models .container-fluid .row .carousel-nav .carousel-cell .carousel-nav-text {
+  color: #5a5a5a;
+  text-transform: uppercase;
+  text-align: center;
+}
+body main .haval-models .container-fluid .row .carousel-nav .carousel-cell:before {
+  font-size: 50px;
+  line-height: 80px;
+}
+body main .haval-models .container-fluid .row .carousel-nav .carousel-cell.is-nav-selected {
+  font-weight: bold;
+}
+body main .haval-models .container-fluid .row .carousel-nav .carousel-cell.is-nav-selected::after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  content: "";
+  width: 100%;
+  height: 0.35rem;
+  background-image: url("../images/car-select.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body main .haval-models .container-fluid .row .main-carousel {
+  padding: 70px 0px 0px;
+}
+body main .haval-models .container-fluid .row .main-carousel .flickity-viewport {
+  height: 337.906px !important;
+}
+body main .haval-models .container-fluid .row .main-carousel .flickity-prev-next-button.previous,
+body main .haval-models .container-fluid .row .main-carousel .flickity-prev-next-button.next {
+  z-index: 3;
+}
+body main .haval-models .container-fluid .row .main-carousel .carousel-cell {
+  background: none;
+  width: 50%;
+}
+body main .haval-models .container-fluid .row .main-carousel .carousel-cell .card {
+  text-align: center;
+  border: none;
+  background: none;
+  z-index: 1000;
+}
+body main .haval-models .container-fluid .row .main-carousel .carousel-cell .card .card-body .model-link {
+  text-decoration: none;
+  color: #5a5a5a;
+  text-transform: uppercase;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+body main .haval-models .container-fluid .row .main-carousel .carousel-cell .card .card-body .separator {
+  margin: 15px 0px;
+}
+body main .haval-models .container-fluid .row .main-carousel .carousel-cell .card .card-body .separator::after {
+  width: 50px;
+  display: block;
+  margin: auto;
+  content: "";
+  height: 1px;
+  background: #000000;
+  bottom: 0px;
+  left: 50%;
+  -webkit-transition: width 0.8s ease, background-color 0.8s ease;
+  -webkit-transition: width 0.8s ease, background-color 0.8s ease;
+  -webkit-transition: width 0.8s ease, background-color 0.8s ease;
+  transition: width 0.8s ease, background-color 0.8s ease;
+  -webkit-transition: width 0.8s ease, background-color 0.8s ease;
+  -o-transition: width 0.8s ease, background-color 0.8s ease;
+  -ms-transition: width 0.8s ease, background-color 0.8s ease;
+  -moz-transition: width 0.8s ease, background-color 0.8s ease;
+}
+body main .haval-models .container-fluid .row .main-carousel .carousel-cell .card .card-body .separator::before {
+  content: "";
+  display: block;
+  margin: auto;
+  left: 50%;
+  height: 1px;
+  width: 30px;
+  bottom: -10px;
+  background: #000000;
+  -webkit-transition: width 0.8s ease, background-color 0.8s ease;
+  -webkit-transition: width 0.8s ease, background-color 0.8s ease;
+  -webkit-transition: width 0.8s ease, background-color 0.8s ease;
+  transition: width 0.8s ease, background-color 0.8s ease;
+  -webkit-transition: width 0.8s ease, background-color 0.8s ease;
+  -o-transition: width 0.8s ease, background-color 0.8s ease;
+  -ms-transition: width 0.8s ease, background-color 0.8s ease;
+  -moz-transition: width 0.8s ease, background-color 0.8s ease;
+  margin-bottom: 4px;
+}
+body main .haval-models .container-fluid .row .main-carousel .carousel-cell .card:hover .separator::before {
+  width: 50px;
+  left: 0;
+  background: #d7000f;
+}
+body main .haval-models .container-fluid .row .main-carousel .carousel-cell .card:hover .separator::after {
+  width: 30px;
+  left: 0;
+  background: #d7000f;
+}
+body main .haval-models .container-fluid .row .main-carousel .carousel-cell .card:hover .model-link {
+  color: #d7000f;
+}
+body main .haval-model-comfort {
+  padding: 70px 0px;
+  background-color: #f1f1f1;
+}
+body main .haval-model-comfort .section-title {
+  margin-bottom: 40px;
+  text-align: center;
+}
+body main .haval-model-comfort .section-title h2 {
+  font-size: 1.6em;
+  text-transform: uppercase;
+  color: #5a5a5a;
+  text-transform: uppercase;
+}
+body main .haval-model-comfort .section-title .separator {
+  margin-bottom: 15px;
+}
+body main .haval-model-comfort .section-title .separator::after {
+  width: 30px;
+  display: block;
+  margin: auto;
+  content: "";
+  height: 1px;
+  background: #d7000f;
+  bottom: 0px;
+  left: 50%;
+  transition: width 0.8s ease, background-color 0.8s ease;
+  -webkit-transition: width 0.8s ease, background-color 0.8s ease;
+  -o-transition: width 0.8s ease, background-color 0.8s ease;
+  -ms-transition: width 0.8s ease, background-color 0.8s ease;
+  -moz-transition: width 0.8s ease, background-color 0.8s ease;
+}
+body main .haval-model-comfort .section-title .separator::before {
+  content: "";
+  display: block;
+  margin: auto;
+  left: 50%;
+  height: 1px;
+  width: 60px;
+  bottom: -10px;
+  background: #d7000f;
+  transition: width 0.8s ease, background-color 0.8s ease;
+  -webkit-transition: width 0.8s ease, background-color 0.8s ease;
+  -o-transition: width 0.8s ease, background-color 0.8s ease;
+  -ms-transition: width 0.8s ease, background-color 0.8s ease;
+  -moz-transition: width 0.8s ease, background-color 0.8s ease;
+  margin-bottom: 4px;
+}
+body main .haval-model-comfort .container .row .list-group .list-group-item {
+  padding: 0;
+  margin-bottom: 25px;
+  border: none;
+}
+body main .haval-model-comfort .container .row .list-group .list-group-item .card {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  border: none;
+}
+body main .haval-model-comfort .container .row .list-group .list-group-item .card .card-header {
+  width: 50%;
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+}
+body main .haval-model-comfort .container .row .list-group .list-group-item .card .card-header .card-img-top {
+  max-width: 100%;
+  border-radius: 0;
+}
+body main .haval-model-comfort .container .row .list-group .list-group-item .card .card-body {
+  max-width: 50%;
+  padding: 0;
+  padding: 0 20px;
+}
+body main .haval-model-comfort .container .row .list-group .list-group-item .card .card-body .card-text {
+  color: #5a5a5a;
+  text-align: justify;
+}
+body main .haval-model-comfort .container .row .list-group .list-group-item:nth-child(even) {
+  -ms-flex-item-align: end;
+  -webkit-align-self: flex-end;
+  align-self: flex-end;
+}
+body main .haval-model-comfort .container .row .list-group .list-group-item:nth-child(even) .card {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
+  -webkit-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+body main .haval-model-comfort .container .row .list-group .list-group-item:nth-child(even) .card .card-body {
+  padding-right: 20px;
+}
+body main .haval-model-comfort .container .row .card {
+  border: none;
+  border-radius: 0;
+}
+body main .haval-model-comfort .container .row .card .card-header {
+  padding: 0;
+  background: none;
+  border: none;
+}
+body main .haval-model-comfort .container .row .card .card-header .card-img-top {
+  border-radius: 0;
+}
+body main .haval-model-comfort .container .row .card .card-body h6 {
+  font-size: 1.1em;
+}
+body main .haval-model-comfort .container .row .card .card-body .card-text {
+  color: #5a5a5a;
+}
+body main .haval-model-tech {
+  margin: 40px 0px;
+  padding: 30px 0px;
+}
+body main .haval-model-tech h2 {
+  font-size: 1.6em;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #5a5a5a;
+}
+body main .haval-model-tech .container .row .card {
+  border-radius: 0;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+body main .haval-model-tech .container .row .card .card-header {
+  padding: 1rem;
+  background: none;
+  border: none;
+}
+body main .haval-model-tech .container .row .card .card-body h6 {
+  font-size: 0.9em;
+}
+body main .haval-model-tech .container .row .card:hover {
+  -webkit-box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.12);
+}
+body main .haval-model-options {
+  margin: 40px 0px;
+  padding: 30px 0px;
+}
+body main .haval-model-options h2 {
+  font-size: 1.6em;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #5a5a5a;
+}
+body main .haval-model-options .container .row nav .nav-tabs .type-link {
+  color: #5a5a5a;
+  text-transform: uppercase;
+  border: none;
+}
+body main .haval-model-options .container .row nav .nav-tabs .type-link:focus {
+  border: none;
+}
+body main .haval-model-options .container .row nav .nav-tabs .type-link:hover {
+  color: #5a5a5a !important;
+  border: none;
+}
+body main .haval-model-options .container .row nav .nav-tabs .nav-item.show .nav-link,
+body main .haval-model-options .container .row nav .nav-tabs .nav-link.active {
+  font-weight: bold;
+  border: none;
+  border-bottom: 2px solid #d7000f;
+}
+body main .haval-model-options .container .row .tab-content {
+  margin-top: 15px;
+}
+body main .haval-model-options .container .row .tab-content .tab-pane .row .nav-pills .trans-link {
+  color: #5a5a5a;
+  text-transform: uppercase;
+  border: none;
+}
+body main .haval-model-options .container .row .tab-content .tab-pane .row .nav-pills .trans-link:focus {
+  border: none;
+}
+body main .haval-model-options .container .row .tab-content .tab-pane .row .nav-pills .trans-link:hover {
+  color: #5a5a5a !important;
+  border: none;
+}
+body main .haval-model-options .container .row .tab-content .tab-pane .row .nav-pills .nav-link.active,
+body main .haval-model-options .container .row .tab-content .tab-pane .row .nav-pills .show > .nav-link {
+  background-color: #f1f1f1;
+  border-radius: 0;
+  border-top: 1px solid #5a5a5a;
+  border-bottom: 1px solid #5a5a5a;
+}
+body main .haval-model-options .container .row .tab-content .tab-pane .row .model-option-tab {
+  margin: 0;
+}
+body main .haval-model-options .container .row .tab-content .tab-pane .row .model-option-tab .tab-pane .model-option-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+body main .haval-model-options .container .row .tab-content .tab-pane .row .model-option-tab .tab-pane .model-option-box .model-option-photo {
+  width: 450px;
+  margin-right: 20px;
+}
+body main .haval-model-options .container .row .tab-content .tab-pane .row .model-option-tab .tab-pane .model-option-box .model-option-info .model-price-content {
+  color: #5a5a5a;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+body main .haval-model-options .container .row .tab-content .tab-pane .row .model-option-tab .tab-pane .model-option-box .model-option-info .model-price-content .model-price-text {
+  margin-right: 5px;
+  font-weight: bold;
+}
+body main .haval-model-options .container .row .tab-content .tab-pane .row .model-option-tab .tab-pane .model-option-box .model-option-info .model-drive-link {
+  font-size: 18px;
+  font-weight: bold;
+  color: #5a5a5a;
+  text-transform: uppercase;
+  text-decoration: none;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+body main .haval-model-options .container .row .tab-content .tab-pane .row .model-option-tab .tab-pane .model-option-box .model-option-info .model-drive-link:hover {
+  color: #d7000f;
+}
+body main .haval-model-options .container .row .tab-content .tab-pane .row .model-option-tab .tab-pane .model-option-accordion {
+  margin-top: 25px;
+}
+body main .haval-model-options .container .row .tab-content .tab-pane .row .model-option-tab .tab-pane .model-option-accordion .accordion .accordion-item {
+  margin-bottom: 20px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 6px 0 rgba(229, 229, 237, 0.91);
+  box-shadow: 0 1px 6px 0 rgba(229, 229, 237, 0.91);
+  background-color: #ffffff;
+}
+body main .haval-model-options .container .row .tab-content .tab-pane .row .model-option-tab .tab-pane .model-option-accordion .accordion .accordion-item .accordion-header {
+  margin: 0;
+  padding: 18px 20px;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #5a5a5a;
+}
+body main .haval-model-options .container .row .tab-content .tab-pane .row .model-option-tab .tab-pane .model-option-accordion .accordion .accordion-item .accordion-header .accordion-button {
+  border-top: none;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #5a5a5a;
+}
+body main .haval-model-options .container .row .tab-content .tab-pane .row .model-option-tab .tab-pane .model-option-accordion .accordion .accordion-item .accordion-header .accordion-button:focus {
+  border: none;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+body main .haval-model-options .container .row .tab-content .tab-pane .row .model-option-tab .tab-pane .model-option-accordion .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed) {
+  padding-bottom: 18px;
+  background: none;
+  border: none;
+  color: #535afe;
+}
+body main .haval-model-options .container .row .tab-content .tab-pane .row .model-option-tab .tab-pane .model-option-accordion .accordion .accordion-item .accordion-collapse .collapse,
+body main .haval-model-options .container .row .tab-content .tab-pane .row .model-option-tab .tab-pane .model-option-accordion .accordion .accordion-item .accordion-body {
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #9898ab;
+}
+body main .haval-model-options .container .row .tab-content .tab-pane .row .model-option-tab .tab-pane .model-option-accordion .accordion .accordion-item .accordion-body {
+  padding: 0rem 1.25rem 1rem;
+}
+body main .haval-model-options .container .row .tab-content .tab-pane .row .model-option-tab .tab-pane .model-option-accordion .accordion .accordion-item .accordion-body .list-group {
+  margin-left: 20px;
+  border-radius: 0;
+}
+body main .haval-model-options .container .row .tab-content .tab-pane .row .model-option-tab .tab-pane .model-option-accordion .accordion .accordion-item .accordion-body .list-group .list-group-item {
+  display: list-item;
+  list-style-type: disc;
+  border: none;
+}
+body main .haval-model-options .container .row .tab-content .tab-pane .row .model-option-tab .tab-pane .model-option-accordion .accordion .accordion-item .accordion-body .specification-box {
+  margin: 30px 0px;
+}
+body main .haval-model-options .container .row .tab-content .tab-pane .row .model-option-tab .tab-pane .model-option-accordion .accordion .accordion-item .accordion-body .specification-box h6 {
+  text-transform: uppercase;
+  color: #d7000f;
+}
+body main .haval-model-options .container .row .tab-content .tab-pane .row .model-option-tab .tab-pane .model-option-accordion .accordion .accordion-item .accordion-body .specification-box .list-group {
+  margin-left: 20px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  border-radius: 0;
+}
+body main .haval-model-options .container .row .tab-content .tab-pane .row .model-option-tab .tab-pane .model-option-accordion .accordion .accordion-item .accordion-body .specification-box .list-group .list-group-item {
+  width: 50%;
+  display: list-item;
+  list-style-type: disc;
+  font-weight: bold;
+  border: none;
+}
+body main .haval-model-options .container .row .tab-content .tab-pane .row .model-option-tab .tab-pane .model-option-accordion .accordion .accordion-item .accordion-body .specification-box .list-group .list-group-item .type-of-list-item {
+  font-weight: normal;
+}
+body main .haval-model-color {
+  position: relative;
+  margin: 40px 0px;
+}
+body main .haval-model-color h2 {
+  font-size: 1.6em;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #5a5a5a;
+}
+body main .haval-model-color .container .row {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+body main .haval-model-color .container .row .model-wrapper {
+  margin: 0 auto;
+}
+body main .haval-model-color .container .row .model-wrapper .model-content {
+  position: relative;
+}
+body main .haval-model-color .container .row .model-wrapper .model-content .img-fluid {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+body main .haval-model-color .container .row .model-wrapper .hide-model-content {
+  display: none;
+}
+body main .haval-model-color .container .row .model-wrapper .show-model-content {
+  display: block;
+}
+body main .haval-model-color .container .row .model-wrapper .color-content .color-list {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  border-radius: 0;
+}
+body main .haval-model-color .container .row .model-wrapper .color-content .color-list .color-list-item {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  margin: 0px 10px;
+  border: none;
+  border-radius: 0;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+body main .haval-model-color .container .row .model-wrapper .color-content .color-list .color-list-item:first-child {
+  background-color: #1a2f50;
+}
+body main .haval-model-color .container .row .model-wrapper .color-content .color-list .color-list-item:nth-child(2) {
+  background-color: #dbddde;
+}
+body main .haval-model-color .container .row .model-wrapper .color-content .color-list .color-list-item:nth-child(3) {
+  background-color: #525a6b;
+}
+body main .haval-model-color .container .row .model-wrapper .color-content .color-list .color-list-item:last-child {
+  background-color: #0e0c08;
+}
+body main .haval-model-color .container .row .model-wrapper .color-content .color-list .color-list-item-active {
+  -webkit-box-shadow: 0 0 2px 2px #bbb;
+  box-shadow: 0 0 2px 2px #bbb;
+}
+body main .haval-model-color .container .row .model-color-info {
+  margin-top: 25px;
+}
+body main .haval-model-color .container .row .model-color-info .color-info-title {
+  color: #5a5a5a;
+}
+body main .haval-model-color .container .row .model-color-info .color-info-text {
+  color: #5a5a5a;
+}
+body main .haval-model-gallery {
+  margin: 40px 0px;
+}
+body main .haval-model-gallery h2 {
+  font-size: 1.6em;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #5a5a5a;
+}
+body main .haval-model-gallery .container .row .nav-tabs .type-link {
+  color: #5a5a5a;
+  text-transform: uppercase;
+  border: none;
+}
+body main .haval-model-gallery .container .row .nav-tabs .type-link:focus {
+  border: none;
+}
+body main .haval-model-gallery .container .row .nav-tabs .type-link:hover {
+  color: #5a5a5a !important;
+  border: none;
+}
+body main .haval-model-gallery .container .row .nav-tabs .nav-item.show .nav-link,
+body main .haval-model-gallery .container .row .nav-tabs .nav-link.active {
+  font-weight: bold;
+  border: none;
+  border-bottom: 2px solid #d7000f;
+}
+body main .haval-model-gallery .container .row .haval-gallery-tab {
+  margin-top: 40px;
+}
+body main .haval-model-gallery .container .row .haval-gallery-tab .tab-pane .haval-gallery-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+}
+body main .haval-model-gallery .container .row .haval-gallery-tab .tab-pane .haval-gallery-container .single-img-box {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+}
+body main .haval-model-gallery .container .row .useful-page-wrapper .link-list {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+}
+body main .haval-model-gallery .container .row .useful-page-wrapper .link-list .link-list-item {
+  padding: 0;
+  border: none;
+  border-radius: 0;
+}
+body main .haval-model-gallery .container .row .useful-page-wrapper .link-list .link-list-item .link-box {
+  position: relative;
+  display: block;
+  padding: 2rem;
+  color: #333333;
+  text-align: center;
+  text-decoration: none;
+  background-color: rgba(156, 156, 156, 0.753);
+  border: 1px solid #fff;
+  text-transform: uppercase;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  overflow: hidden;
+}
+body main .haval-model-gallery .container .row .useful-page-wrapper .link-list .link-list-item .link-box .link-box-icon {
+  margin-bottom: 10px;
+}
+body main .haval-model-gallery .container .row .useful-page-wrapper .link-list .link-list-item .link-box .link-box-icon i {
+  font-size: 2rem;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+body main .haval-model-gallery .container .row .useful-page-wrapper .link-list .link-list-item .link-box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  height: 100%;
+  background: -o-linear-gradient(left, transparent, white, transparent);
+  background: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(white), to(transparent));
+  background: linear-gradient(90deg, transparent, white, transparent);
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+body main .haval-model-gallery .container .row .useful-page-wrapper .link-list .link-list-item .link-box:hover {
+  border: 1px solid #fff;
+  background-color: rgba(215, 0, 14, 0.7);
+}
+body main .haval-model-gallery .container .row .useful-page-wrapper .link-list .link-list-item .link-box:hover .link-box-icon i {
+  color: #fff;
+}
+body main .haval-model-gallery .container .row .useful-page-wrapper .link-list .link-list-item .link-box:hover .link-box-title {
+  color: #fff;
+}
+body main .haval-model-gallery .container .row .useful-page-wrapper .link-list .link-list-item .link-box:hover:before {
+  left: -100%;
+}
+body main .haval-model-gallery .container .row .useful-page-wrapper .link-list .link-list-item .link-box .link-box-title {
+  font-size: 1rem;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+body main .haval-offers {
+  padding: 30px 0px;
+}
+body main .haval-offers .container .row {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+body main .haval-offers .container .row .offer-box {
+  position: relative;
+  display: block;
+  margin: 15px 0px;
+  padding: 2.5rem 0rem;
+  color: #333333;
+  text-align: center;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 1px solid #fff;
+  text-transform: uppercase;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  overflow: hidden;
+}
+body main .haval-offers .container .row .offer-box .box-icon {
+  margin-bottom: 10px;
+}
+body main .haval-offers .container .row .offer-box .box-icon i {
+  color: #fff;
+  font-size: 2rem;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+body main .haval-offers .container .row .offer-box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  height: 100%;
+  background: -o-linear-gradient(left, transparent, white, transparent);
+  background: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(white), to(transparent));
+  background: linear-gradient(90deg, transparent, white, transparent);
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+body main .haval-offers .container .row .offer-box:hover {
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  background-color: white;
+}
+body main .haval-offers .container .row .offer-box:hover .box-icon i {
+  color: rgba(0, 0, 0, 0.7);
+}
+body main .haval-offers .container .row .offer-box:hover .box-title {
+  color: rgba(0, 0, 0, 0.7);
+}
+body main .haval-offers .container .row .offer-box:hover:before {
+  left: -100%;
+}
+body main .haval-offers .container .row .offer-box .box-title {
+  font-size: 1rem;
+  color: #fff;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+body main .haval-special-offers-page {
+  padding: 70px 0px;
+}
+body main .haval-special-offers-page .section-title {
+  margin-bottom: 40px;
+  text-align: center;
+}
+body main .haval-special-offers-page .section-title h2 {
+  font-size: 1.6em;
+  text-transform: uppercase;
+  color: #5a5a5a;
+  text-transform: uppercase;
+}
+body main .haval-special-offers-page .section-title p {
+  color: #5a5a5a;
+}
+body main .haval-special-offers-page .container .row {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+body main .haval-special-offers-page .container .row .card {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  background: none;
+  border: none;
+  border-radius: 0;
+  margin-bottom: 25px;
+}
+body main .haval-special-offers-page .container .row .card .card-header {
+  width: 50%;
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+}
+body main .haval-special-offers-page .container .row .card .card-header .card-img-top {
+  border-radius: 0;
+}
+body main .haval-special-offers-page .container .row .card .card-body {
+  max-width: 60%;
+  padding: 20px 40px;
+}
+body main .haval-special-offers-page .container .row .card .card-body .card-title {
+  margin-bottom: 15px;
+  font-size: 1.7rem;
+}
+body main .haval-special-offers-page .container .row .card .card-body .card-offer-text {
+  position: relative;
+  padding: 0px 40px;
+  font-size: 1.2rem;
+  color: #5a5a5a;
+}
+body main .haval-special-offers-page .container .row .card .card-body .card-offer-text::before {
+  position: absolute;
+  left: 24px;
+  top: 5px;
+  content: "";
+  width: 2px;
+  height: 20px;
+  background-color: #5a5a5a;
+  -webkit-transform: rotateZ(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotateZ(90deg);
+}
+body main .haval-special-offers-page .container .row .card .card-body .card-text {
+  font-size: 1rem;
+  color: #5a5a5a;
+}
+body main .haval-lizing-offers {
+  position: relative;
+  padding: 80px 0px;
+  background-image: url("../images/haval-bg-1.jpg");
+  background-color: rgba(0, 0, 0, 0);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: 0;
+}
+body main .haval-lizing-offers::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: -1;
+}
+body main .haval-lizing-offers .container .row .lizing-content h2 {
+  margin: 30px;
+  color: #5a5a5a;
+}
+body main .haval-lizing-offers .container .row .lizing-content p {
+  margin: 30px;
+  color: #f1f1f1;
+}
+body main .haval-special-program {
+  padding: 70px 0px;
+  background-color: #f8f8f8;
+}
+body main .haval-special-program .section-title {
+  margin: 40px 0px;
+  text-align: center;
+}
+body main .haval-special-program .section-title h2 {
+  font-size: 1.6em;
+  text-transform: uppercase;
+  color: #5a5a5a;
+  text-transform: uppercase;
+}
+body main .haval-special-program .container .row {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+body main .haval-special-program .container .row .special-prog-list {
+  border-radius: 0;
+}
+body main .haval-special-program .container .row .special-prog-list .prog-list-item {
+  margin: 20px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -ms-flex-preferred-size: content;
+  -webkit-flex-basis: content;
+  flex-basis: content;
+  border: none;
+  background: none;
+}
+body main .haval-special-program .container .row .special-prog-list .prog-list-item .prog-icon {
+  font-size: 1.5rem;
+  margin-right: 25px;
+}
+body main .haval-special-program .container .row .special-prog-list .prog-list-item .prog-title {
+  font-size: 0.8rem;
+}
+body main .haval-special-contact {
+  padding: 60px 0px;
+  background-color: #f8f8f8;
+}
+body main .haval-special-contact .section-title {
+  margin: 40px 0px;
+  text-align: center;
+}
+body main .haval-special-contact .section-title h2 {
+  font-size: 1.6em;
+  text-transform: uppercase;
+  color: #5a5a5a;
+  text-transform: uppercase;
+}
+body main .haval-special-contact .container .row {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+body main .haval-special-contact .container .row .special-contact-content .contact-text {
+  color: #5a5a5a;
+}
+body main .haval-special-contact .container .row .special-contact-content .special-contact-info .special-manager {
+  font-weight: bold;
+}
+body main .haval-special-contact .container .row .special-contact-content .special-contact-info .manager-prof {
+  font-style: italic;
+}
+body main .haval-special-contact .container .row .special-contact-content .special-contact-info .contact-mail,
+body main .haval-special-contact .container .row .special-contact-content .special-contact-info .contact-phone {
+  color: #5a5a5a;
+}
+body main .haval-special-contact .container .row .special-contact-content .useful-links .useful-link {
+  margin-right: 20px;
+  color: #5a5a5a;
+  text-decoration: none;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+body main .haval-special-contact .container .row .special-contact-content .useful-links .useful-link:hover {
+  color: #d7000f;
+  text-decoration: underline;
+}
+body main .haval-lizing-offers-page {
+  padding: 0px 0px 70px;
+}
+body main .haval-lizing-offers-page .section-title {
+  margin: 40px 0px;
+  text-align: center;
+}
+body main .haval-lizing-offers-page .section-title h2 {
+  font-size: 1.6em;
+  text-transform: uppercase;
+  color: #5a5a5a;
+  text-transform: uppercase;
+}
+body main .haval-lizing-offers-page .container .row {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+body main .haval-lizing-offers-page .container .row .card {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  background: none;
+  border: none;
+  border-radius: 0;
+  margin-bottom: 25px;
+}
+body main .haval-lizing-offers-page .container .row .card .card-header {
+  width: 50%;
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+}
+body main .haval-lizing-offers-page .container .row .card .card-header .card-img-top {
+  border-radius: 0;
+}
+body main .haval-lizing-offers-page .container .row .card .card-body {
+  padding: 20px 40px;
+}
+body main .haval-lizing-offers-page .container .row .card .card-body .card-title {
+  margin-bottom: 15px;
+  font-size: 1.7rem;
+}
+body main .haval-lizing-offers-page .container .row .card .card-body .card-offer-text {
+  position: relative;
+  padding: 0px 40px;
+  font-size: 1.2rem;
+  color: #5a5a5a;
+}
+body main .haval-lizing-offers-page .container .row .card .card-body .card-offer-text::before {
+  position: absolute;
+  left: 24px;
+  top: 5px;
+  content: "";
+  width: 2px;
+  height: 20px;
+  background-color: #5a5a5a;
+  -webkit-transform: rotateZ(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotateZ(90deg);
+}
+body main .haval-lizing-offers-page .container .row .card .card-body .card-text {
+  font-size: 1rem;
+  color: #5a5a5a;
+}
+body main .haval-news {
+  margin: 30px 0px;
+}
+body main .haval-news .section-title {
+  margin-bottom: 40px;
+  text-align: center;
+}
+body main .haval-news .section-title h2 {
+  font-size: 1.6em;
+  text-transform: uppercase;
+  color: #5a5a5a;
+  text-transform: uppercase;
+}
+body main .haval-news .section-title .separator {
+  margin-bottom: 15px;
+}
+body main .haval-news .section-title .separator::after {
+  width: 30px;
+  display: block;
+  margin: auto;
+  content: "";
+  height: 1px;
+  background: #d7000f;
+  bottom: 0px;
+  left: 50%;
+  transition: width 0.8s ease, background-color 0.8s ease;
+  -webkit-transition: width 0.8s ease, background-color 0.8s ease;
+  -o-transition: width 0.8s ease, background-color 0.8s ease;
+  -ms-transition: width 0.8s ease, background-color 0.8s ease;
+  -moz-transition: width 0.8s ease, background-color 0.8s ease;
+}
+body main .haval-news .section-title .separator::before {
+  content: "";
+  display: block;
+  margin: auto;
+  left: 50%;
+  height: 1px;
+  width: 60px;
+  bottom: -10px;
+  background: #d7000f;
+  transition: width 0.8s ease, background-color 0.8s ease;
+  -webkit-transition: width 0.8s ease, background-color 0.8s ease;
+  -o-transition: width 0.8s ease, background-color 0.8s ease;
+  -ms-transition: width 0.8s ease, background-color 0.8s ease;
+  -moz-transition: width 0.8s ease, background-color 0.8s ease;
+  margin-bottom: 4px;
+}
+body main .haval-news .container .row {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+body main .haval-news .container .row .card {
+  background: none;
+  border: none;
+  border-radius: 0;
+}
+body main .haval-news .container .row .card .card-header {
+  position: relative;
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+}
+body main .haval-news .container .row .card .card-header .card-img-top {
+  border-radius: 0;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+body main .haval-news .container .row .card .card-header .date {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+body main .haval-news .container .row .card .card-header .date span {
+  padding: 5px 15px;
+  background: #d7000f;
+  line-height: 18px;
+  color: #ffffff;
+  display: block;
+  text-align: center;
+}
+body main .haval-news .container .row .card .card-body {
+  padding: 20px;
+  text-align: center;
+}
+body main .haval-news .container .row .card .card-body .card-title {
+  margin-bottom: 15px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+body main .haval-news .container .row .card .card-body .card-title .news-link {
+  color: #5a5a5a;
+  text-decoration: none;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+body main .haval-news .container .row .card .card-body .separator {
+  margin-bottom: 15px;
+}
+body main .haval-news .container .row .card .card-body .separator::after {
+  width: 50px;
+  display: block;
+  margin: auto;
+  content: "";
+  height: 1px;
+  background: #000000;
+  bottom: 0px;
+  left: 50%;
+  -webkit-transition: width 0.8s ease, background-color 0.8s ease;
+  -webkit-transition: width 0.8s ease, background-color 0.8s ease;
+  -webkit-transition: width 0.8s ease, background-color 0.8s ease;
+  transition: width 0.8s ease, background-color 0.8s ease;
+  -webkit-transition: width 0.8s ease, background-color 0.8s ease;
+  -o-transition: width 0.8s ease, background-color 0.8s ease;
+  -ms-transition: width 0.8s ease, background-color 0.8s ease;
+  -moz-transition: width 0.8s ease, background-color 0.8s ease;
+}
+body main .haval-news .container .row .card .card-body .separator::before {
+  content: "";
+  display: block;
+  margin: auto;
+  left: 50%;
+  height: 1px;
+  width: 30px;
+  bottom: -10px;
+  background: #000000;
+  -webkit-transition: width 0.8s ease, background-color 0.8s ease;
+  -webkit-transition: width 0.8s ease, background-color 0.8s ease;
+  -webkit-transition: width 0.8s ease, background-color 0.8s ease;
+  transition: width 0.8s ease, background-color 0.8s ease;
+  -webkit-transition: width 0.8s ease, background-color 0.8s ease;
+  -o-transition: width 0.8s ease, background-color 0.8s ease;
+  -ms-transition: width 0.8s ease, background-color 0.8s ease;
+  -moz-transition: width 0.8s ease, background-color 0.8s ease;
+  margin-bottom: 4px;
+}
+body main .haval-news .container .row .card .card-body .card-text {
+  color: #5a5a5a;
+}
+body main .haval-news .container .row .card:hover .card-header .card-img-top {
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+}
+body main .haval-news .container .row .card:hover .card-header .date {
+  top: 11px;
+  left: 17px;
+}
+body main .haval-news .container .row .card:hover .card-body .card-title .news-link {
+  color: #d7000f;
+}
+body main .haval-news .container .row .card:hover .separator::before {
+  width: 50px;
+  left: 0;
+  background: #d7000f;
+}
+body main .haval-news .container .row .card:hover .separator::after {
+  width: 30px;
+  left: 0;
+  background: #d7000f;
+}
+body main .haval-news-page {
+  margin: 70px 0px;
+}
+body main .haval-news-page .section-title {
+  margin-bottom: 40px;
+  text-align: center;
+}
+body main .haval-news-page .section-title h2 {
+  font-size: 1.6em;
+  text-transform: uppercase;
+  color: #5a5a5a;
+  text-transform: uppercase;
+}
+body main .haval-news-page .section-title .separator {
+  margin-bottom: 15px;
+}
+body main .haval-news-page .section-title .separator::after {
+  width: 30px;
+  display: block;
+  margin: auto;
+  content: "";
+  height: 1px;
+  background: #d7000f;
+  bottom: 0px;
+  left: 50%;
+  transition: width 0.8s ease, background-color 0.8s ease;
+  -webkit-transition: width 0.8s ease, background-color 0.8s ease;
+  -o-transition: width 0.8s ease, background-color 0.8s ease;
+  -ms-transition: width 0.8s ease, background-color 0.8s ease;
+  -moz-transition: width 0.8s ease, background-color 0.8s ease;
+}
+body main .haval-news-page .section-title .separator::before {
+  content: "";
+  display: block;
+  margin: auto;
+  left: 50%;
+  height: 1px;
+  width: 60px;
+  bottom: -10px;
+  background: #d7000f;
+  transition: width 0.8s ease, background-color 0.8s ease;
+  -webkit-transition: width 0.8s ease, background-color 0.8s ease;
+  -o-transition: width 0.8s ease, background-color 0.8s ease;
+  -ms-transition: width 0.8s ease, background-color 0.8s ease;
+  -moz-transition: width 0.8s ease, background-color 0.8s ease;
+  margin-bottom: 4px;
+}
+body main .haval-news-page .container .row {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+body main .haval-news-page .container .row .card {
+  margin-bottom: 20px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  background: none;
+  border-radius: 0;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+body main .haval-news-page .container .row .card .card-header {
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+}
+body main .haval-news-page .container .row .card .card-header .card-img-top {
+  border-radius: 0;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+body main .haval-news-page .container .row .card .card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  padding: 20px;
+}
+body main .haval-news-page .container .row .card .card-body .card-title {
+  margin-bottom: 15px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+body main .haval-news-page .container .row .card .card-body .card-title .news-link {
+  color: #5a5a5a;
+  text-decoration: none;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+body main .haval-news-page .container .row .card .card-body .card-text {
+  color: #5a5a5a;
+}
+body main .haval-news-page .container .row .card .card-body .date span {
+  padding: 5px 15px;
+  background: #d7000f;
+  line-height: 18px;
+  color: #ffffff;
+  text-align: center;
+}
+body main .haval-news-page .container .row .card:hover {
+  -webkit-transform: translateX(5px);
+  -ms-transform: translateX(5px);
+  transform: translateX(5px);
+  -webkit-box-shadow: 0px 5px 20px rgba(90, 90, 90, 0.5);
+  box-shadow: 0px 5px 20px rgba(90, 90, 90, 0.5);
+}
+body main .haval-news-page .container .row .card:hover .card-body .card-title .news-link {
+  color: #d7000f;
+}
+body main .haval-news-page .container .row nav .pagination .page-item .page-link {
+  color: #5a5a5a;
+}
+body main .haval-news-page .container .row nav .pagination .page-item .page-link:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+body main .haval-news-single-page {
+  margin: 70px 0px;
+}
+body main .haval-news-single-page .container .row {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+body main .haval-news-single-page .container .row .card {
+  margin-bottom: 20px;
+  background: none;
+  border: none;
+  border-radius: 0;
+}
+body main .haval-news-single-page .container .row .card .card-header {
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+}
+body main .haval-news-single-page .container .row .card .card-header .card-img-top {
+  border-radius: 0;
+}
+body main .haval-news-single-page .container .row .card .card-title {
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #5a5a5a;
+  text-transform: uppercase;
+  text-align: center;
+}
+body main .haval-news-single-page .container .row .card .date {
+  margin-bottom: 20px;
+}
+body main .haval-news-single-page .container .row .card .date span {
+  padding: 5px 15px;
+  line-height: 18px;
+  color: #5a5a5a;
+  text-align: center;
+}
+body main .haval-news-single-page .container .row .card .card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  padding: 20px;
+}
+body main .haval-news-single-page .container .row .card .card-body .card-text {
+  color: #5a5a5a;
+  text-align: justify;
+}
+body main .haval-contact {
+  margin: 70px 0px;
+}
+body main .haval-contact .section-title {
+  margin-bottom: 40px;
+  text-align: center;
+}
+body main .haval-contact .section-title h2 {
+  font-size: 1.6em;
+  text-transform: uppercase;
+  color: #5a5a5a;
+  text-transform: uppercase;
+}
+body main .haval-contact .section-title .separator {
+  margin-bottom: 15px;
+}
+body main .haval-contact .section-title .separator::after {
+  width: 30px;
+  display: block;
+  margin: auto;
+  content: "";
+  height: 1px;
+  background: #d7000f;
+  bottom: 0px;
+  left: 50%;
+  transition: width 0.8s ease, background-color 0.8s ease;
+  -webkit-transition: width 0.8s ease, background-color 0.8s ease;
+  -o-transition: width 0.8s ease, background-color 0.8s ease;
+  -ms-transition: width 0.8s ease, background-color 0.8s ease;
+  -moz-transition: width 0.8s ease, background-color 0.8s ease;
+}
+body main .haval-contact .section-title .separator::before {
+  content: "";
+  display: block;
+  margin: auto;
+  left: 50%;
+  height: 1px;
+  width: 60px;
+  bottom: -10px;
+  background: #d7000f;
+  transition: width 0.8s ease, background-color 0.8s ease;
+  -webkit-transition: width 0.8s ease, background-color 0.8s ease;
+  -o-transition: width 0.8s ease, background-color 0.8s ease;
+  -ms-transition: width 0.8s ease, background-color 0.8s ease;
+  -moz-transition: width 0.8s ease, background-color 0.8s ease;
+  margin-bottom: 4px;
+}
+body main .haval-contact .container .row .dealer-container .dealer-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+body main .haval-contact .container .row .dealer-container .dealer-list .dealer-list-item {
+  padding: 20px;
+  list-style: none;
+  color: #5a5a5a;
+}
+body main .haval-contact .container .row .dealer-container .dealer-list .dealer-list-item .dealer-address,
+body main .haval-contact .container .row .dealer-container .dealer-list .dealer-list-item .dealer-phone {
+  margin: 10px 0px;
+  color: #5a5a5a;
+}
+body main .haval-contact .container .row .dealer-container .dealer-list .dealer-list-item .dealer-address i,
+body main .haval-contact .container .row .dealer-container .dealer-list .dealer-list-item .dealer-phone i {
+  margin-right: 10px;
+  color: rgba(90, 90, 90, 0.596);
+}
+body main .haval-history {
+  padding: 70px 0px;
+  background-color: #f1f1f1;
+}
+body main .haval-history .section-title {
+  margin-bottom: 40px;
+  text-align: center;
+}
+body main .haval-history .section-title h2 {
+  font-size: 1.6em;
+  text-transform: uppercase;
+  color: #5a5a5a;
+  text-transform: uppercase;
+}
+body main .haval-history .section-title .separator {
+  margin-bottom: 15px;
+}
+body main .haval-history .section-title .separator::after {
+  width: 30px;
+  display: block;
+  margin: auto;
+  content: "";
+  height: 1px;
+  background: #d7000f;
+  bottom: 0px;
+  left: 50%;
+  transition: width 0.8s ease, background-color 0.8s ease;
+  -webkit-transition: width 0.8s ease, background-color 0.8s ease;
+  -o-transition: width 0.8s ease, background-color 0.8s ease;
+  -ms-transition: width 0.8s ease, background-color 0.8s ease;
+  -moz-transition: width 0.8s ease, background-color 0.8s ease;
+}
+body main .haval-history .section-title .separator::before {
+  content: "";
+  display: block;
+  margin: auto;
+  left: 50%;
+  height: 1px;
+  width: 60px;
+  bottom: -10px;
+  background: #d7000f;
+  transition: width 0.8s ease, background-color 0.8s ease;
+  -webkit-transition: width 0.8s ease, background-color 0.8s ease;
+  -o-transition: width 0.8s ease, background-color 0.8s ease;
+  -ms-transition: width 0.8s ease, background-color 0.8s ease;
+  -moz-transition: width 0.8s ease, background-color 0.8s ease;
+  margin-bottom: 4px;
+}
+body main .haval-history .container .row .accordion .accordion-item {
+  margin-bottom: 20px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 6px 0 rgba(229, 229, 237, 0.91);
+  box-shadow: 0 1px 6px 0 rgba(229, 229, 237, 0.91);
+  background-color: #ffffff;
+}
+body main .haval-history .container .row .accordion .accordion-item .accordion-header {
+  padding: 18px 20px;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #9898ab;
+}
+body main .haval-history .container .row .accordion .accordion-item .accordion-header .accordion-button {
+  border-top: none;
+  padding: 0;
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #9898ab;
+}
+body main .haval-history .container .row .accordion .accordion-item .accordion-header .accordion-button:focus {
+  border: none;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+body main .haval-history .container .row .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed) {
+  padding-bottom: 18px;
+  background: none;
+  border-bottom: solid 2px #e1e7ee;
+  color: #535afe;
+}
+body main .haval-history .container .row .accordion .accordion-item .accordion-collapse .collapse,
+body main .haval-history .container .row .accordion .accordion-item .accordion-body {
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #9898ab;
+}
+body main .haval-history .container .row .accordion .accordion-item .accordion-body .list-group {
+  margin-left: 28px;
+  border-radius: 0;
+}
+body main .haval-history .container .row .accordion .accordion-item .accordion-body .list-group .list-group-item {
+  display: list-item;
+  list-style-type: disc;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+body main .haval-history .container .row .accordion .accordion-item .accordion-body .list-group .list-group-item:last-child {
+  border: none;
+}
+body main .haval-strategy,
+body main .haval-production {
+  padding: 70px 0px;
+  background-color: #f1f1f1;
+}
+body main .haval-strategy .section-title,
+body main .haval-production .section-title {
+  margin-bottom: 40px;
+  text-align: center;
+}
+body main .haval-strategy .section-title h2,
+body main .haval-production .section-title h2 {
+  font-size: 1.6em;
+  text-transform: uppercase;
+  color: #5a5a5a;
+  text-transform: uppercase;
+}
+body main .haval-strategy .section-title .separator,
+body main .haval-production .section-title .separator {
+  margin-bottom: 15px;
+}
+body main .haval-strategy .section-title .separator::after,
+body main .haval-production .section-title .separator::after {
+  width: 30px;
+  display: block;
+  margin: auto;
+  content: "";
+  height: 1px;
+  background: #d7000f;
+  bottom: 0px;
+  left: 50%;
+  transition: width 0.8s ease, background-color 0.8s ease;
+  -webkit-transition: width 0.8s ease, background-color 0.8s ease;
+  -o-transition: width 0.8s ease, background-color 0.8s ease;
+  -ms-transition: width 0.8s ease, background-color 0.8s ease;
+  -moz-transition: width 0.8s ease, background-color 0.8s ease;
+}
+body main .haval-strategy .section-title .separator::before,
+body main .haval-production .section-title .separator::before {
+  content: "";
+  display: block;
+  margin: auto;
+  left: 50%;
+  height: 1px;
+  width: 60px;
+  bottom: -10px;
+  background: #d7000f;
+  transition: width 0.8s ease, background-color 0.8s ease;
+  -webkit-transition: width 0.8s ease, background-color 0.8s ease;
+  -o-transition: width 0.8s ease, background-color 0.8s ease;
+  -ms-transition: width 0.8s ease, background-color 0.8s ease;
+  -moz-transition: width 0.8s ease, background-color 0.8s ease;
+  margin-bottom: 4px;
+}
+body main .haval-strategy .container .row .list-group .list-group-item,
+body main .haval-production .container .row .list-group .list-group-item {
+  margin-bottom: 25px;
+  border: none;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 6px 0 rgba(127, 127, 129, 0.91);
+  box-shadow: 0 1px 6px 0 rgba(127, 127, 129, 0.91);
+  background-color: #ffffff;
+}
+body main .haval-strategy .container .row .list-group .list-group-item .card,
+body main .haval-production .container .row .list-group .list-group-item .card {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  border: none;
+}
+body main .haval-strategy .container .row .list-group .list-group-item .card .card-header,
+body main .haval-production .container .row .list-group .list-group-item .card .card-header {
+  width: 50%;
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+}
+body main .haval-strategy .container .row .list-group .list-group-item .card .card-header .card-img-top,
+body main .haval-production .container .row .list-group .list-group-item .card .card-header .card-img-top {
+  max-width: 100%;
+  border-radius: 0;
+}
+body main .haval-strategy .container .row .list-group .list-group-item .card .card-body,
+body main .haval-production .container .row .list-group .list-group-item .card .card-body {
+  padding: 0;
+  padding-left: 20px;
+  width: 35rem;
+}
+body main .haval-strategy .container .row .list-group .list-group-item .card .card-body .card-text,
+body main .haval-production .container .row .list-group .list-group-item .card .card-body .card-text {
+  color: #5a5a5a;
+  text-align: justify;
+}
+body main .haval-strategy .container .row .list-group .list-group-item:nth-child(even),
+body main .haval-production .container .row .list-group .list-group-item:nth-child(even) {
+  -ms-flex-item-align: end;
+  -webkit-align-self: flex-end;
+  align-self: flex-end;
+}
+body main .haval-strategy .container .row .list-group .list-group-item:nth-child(even) .card,
+body main .haval-production .container .row .list-group .list-group-item:nth-child(even) .card {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
+  -webkit-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+body main .haval-strategy .container .row .list-group .list-group-item:nth-child(even) .card .card-body,
+body main .haval-production .container .row .list-group .list-group-item:nth-child(even) .card .card-body {
+  padding-right: 20px;
+}
+body main .haval-about {
+  padding: 70px 0px;
+}
+body main .haval-about .section-title {
+  margin-bottom: 40px;
+  text-align: center;
+}
+body main .haval-about .section-title h2 {
+  font-size: 1.6em;
+  text-transform: uppercase;
+  color: #5a5a5a;
+  text-transform: uppercase;
+}
+body main .haval-about .section-title .separator {
+  margin-bottom: 15px;
+}
+body main .haval-about .section-title .separator::after {
+  width: 30px;
+  display: block;
+  margin: auto;
+  content: "";
+  height: 1px;
+  background: #d7000f;
+  bottom: 0px;
+  left: 50%;
+  transition: width 0.8s ease, background-color 0.8s ease;
+  -webkit-transition: width 0.8s ease, background-color 0.8s ease;
+  -o-transition: width 0.8s ease, background-color 0.8s ease;
+  -ms-transition: width 0.8s ease, background-color 0.8s ease;
+  -moz-transition: width 0.8s ease, background-color 0.8s ease;
+}
+body main .haval-about .section-title .separator::before {
+  content: "";
+  display: block;
+  margin: auto;
+  left: 50%;
+  height: 1px;
+  width: 60px;
+  bottom: -10px;
+  background: #d7000f;
+  transition: width 0.8s ease, background-color 0.8s ease;
+  -webkit-transition: width 0.8s ease, background-color 0.8s ease;
+  -o-transition: width 0.8s ease, background-color 0.8s ease;
+  -ms-transition: width 0.8s ease, background-color 0.8s ease;
+  -moz-transition: width 0.8s ease, background-color 0.8s ease;
+  margin-bottom: 4px;
+}
+body main .haval-about .container .row .about-card {
+  position: relative;
+  margin-bottom: 15px;
+  -webkit-box-shadow: 0 1px 6px 0 rgba(229, 229, 237, 0.91);
+  box-shadow: 0 1px 6px 0 rgba(229, 229, 237, 0.91);
+  background-color: #ffffff;
+  cursor: pointer;
+}
+body main .haval-about .container .row .about-card .about-card-overlay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  padding: 0px 20px;
+  vertical-align: middle;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-transition: 0.7s ease;
+  -o-transition: 0.7s ease;
+  transition: 0.7s ease;
+}
+body main .haval-about .container .row .about-card .about-card-overlay .overlay-text {
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+}
+body main .haval-about .container .row .about-card .about-card-overlay .overlay-explore {
+  margin: 0 auto;
+  padding: 10px 25px;
+  text-decoration: none;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #ccc;
+  line-height: 0.5rem;
+  text-transform: uppercase;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+body main .haval-about .container .row .about-card .about-card-overlay .overlay-explore:hover {
+  color: #fff;
+  background-color: #d7000f;
+  border-color: #d7000f;
+}
+body main .haval-about .container .row .about-card:hover .about-card-overlay {
+  height: 100%;
+}
+body main .haval-appeal {
+  position: relative;
+  padding: 80px 0px;
+  background-image: url("../images/haval-bg-4.jpg");
+  background-color: rgba(0, 0, 0, 0);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: 0;
+}
+body main .haval-appeal::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: -1;
+}
+body main .haval-appeal .section-title {
+  margin-bottom: 40px;
+  text-align: center;
+}
+body main .haval-appeal .section-title h2 {
+  font-size: 1.6em;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+body main .haval-appeal .container .row {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+body main .haval-appeal .container .row .col-md-6 .row label,
+body main .haval-appeal .container .row .col-lg-4 .row label {
+  color: #f1f1f1;
+}
+body main .haval-appeal .container .row .col-md-6 .row input:focus,
+body main .haval-appeal .container .row .col-md-6 .row select:focus,
+body main .haval-appeal .container .row .col-md-6 .row textarea:focus,
+body main .haval-appeal .container .row .col-lg-4 .row input:focus,
+body main .haval-appeal .container .row .col-lg-4 .row select:focus,
+body main .haval-appeal .container .row .col-lg-4 .row textarea:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+body main .haval-appeal .container .row .col-md-6 .row .ui-selectmenu-button.ui-button,
+body main .haval-appeal .container .row .col-lg-4 .row .ui-selectmenu-button.ui-button {
+  width: 100%;
+}
+body main .haval-appeal .container .row .col-md-6 .row .ui-button,
+body main .haval-appeal .container .row .col-lg-4 .row .ui-button {
+  background: #ffffff;
+}
+body main .haval-appeal .container .row .col-md-6 .row .ui-button:focus,
+body main .haval-appeal .container .row .col-lg-4 .row .ui-button:focus {
+  border: none;
+  outline: none;
+}
+body main .haval-appeal .container .row .col-md-6 .row .btn,
+body main .haval-appeal .container .row .col-lg-4 .row .btn {
+  width: 100%;
+  background-color: #5a5a5a;
+  color: #f1f1f1;
+  text-transform: uppercase;
+}
+body main .haval-drive {
+  position: relative;
+  padding: 80px 0px;
+  background-image: url("../images/haval-bg-5.jpg");
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: 0;
+}
+body main .haval-drive::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: -1;
+}
+body main .haval-drive .section-title {
+  margin-bottom: 40px;
+  text-align: center;
+}
+body main .haval-drive .section-title h2 {
+  font-size: 1.6em;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+body main .haval-drive .container .row {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+body main .haval-drive .container .row .col-md-6 form label,
+body main .haval-drive .container .row .col-lg-4 form label {
+  color: #f1f1f1;
+}
+body main .haval-drive .container .row .col-md-6 form input:focus,
+body main .haval-drive .container .row .col-md-6 form select:focus,
+body main .haval-drive .container .row .col-md-6 form textarea:focus,
+body main .haval-drive .container .row .col-lg-4 form input:focus,
+body main .haval-drive .container .row .col-lg-4 form select:focus,
+body main .haval-drive .container .row .col-lg-4 form textarea:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+body main .haval-drive .container .row .col-md-6 form .input-group input[type=file],
+body main .haval-drive .container .row .col-lg-4 form .input-group input[type=file] {
+  display: none;
+}
+body main .haval-drive .container .row .col-md-6 form .input-group .add-file,
+body main .haval-drive .container .row .col-lg-4 form .input-group .add-file {
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  color: #5a5a5a;
+  border-radius: 0.25rem;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+body main .haval-drive .container .row .col-md-6 form .ui-selectmenu-button.ui-button,
+body main .haval-drive .container .row .col-lg-4 form .ui-selectmenu-button.ui-button {
+  width: 100%;
+}
+body main .haval-drive .container .row .col-md-6 form .ui-button,
+body main .haval-drive .container .row .col-lg-4 form .ui-button {
+  background: #ffffff;
+}
+body main .haval-drive .container .row .col-md-6 form .ui-button:focus,
+body main .haval-drive .container .row .col-lg-4 form .ui-button:focus {
+  border: none;
+  outline: none;
+}
+body main .haval-drive .container .row .col-md-6 form .btn,
+body main .haval-drive .container .row .col-lg-4 form .btn {
+  width: 100%;
+  background-color: #5a5a5a;
+  color: #f1f1f1;
+  text-transform: uppercase;
+}
+body main .haval-calculator {
+  padding: 60px 0px;
+  background-color: #f1f1f1;
+}
+body main .haval-calculator .container .row {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+body main .haval-calculator .container .row nav .nav-tabs {
+  margin-bottom: 20px;
+  border: none;
+}
+body main .haval-calculator .container .row nav .nav-tabs .nav-link.active {
+  background: none;
+  border: none;
+  border-bottom: 2px solid #d7000f;
+}
+body main .haval-calculator .container .row nav .nav-tabs .nav-link {
+  border: none;
+  color: #5a5a5a;
+}
+body main .haval-calculator .container .row nav .nav-tabs .nav-link:hover {
+  color: #5a5a5a !important;
+  border-color: #f1f1f1;
+}
+body main .haval-calculator .container .row nav .nav-tabs .nav-link:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+body main .haval-calculator .container .row .tab-content .tab-pane .container .row form label {
+  color: #5a5a5a;
+}
+body main .haval-calculator .container .row .tab-content .tab-pane .container .row form input:focus,
+body main .haval-calculator .container .row .tab-content .tab-pane .container .row form select:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+body main .haval-calculator .container .row .tab-content .tab-pane .container .row form .ui-selectmenu-button.ui-button {
+  width: 100%;
+}
+body main .haval-calculator .container .row .tab-content .tab-pane .container .row form .ui-button {
+  background: #ffffff;
+}
+body main .haval-calculator .container .row .tab-content .tab-pane .container .row form .ui-button:focus {
+  border: none;
+  outline: none;
+}
+body main .haval-calculator .container .row .tab-content .tab-pane .container .row form .list-group {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+body main .haval-calculator .container .row .tab-content .tab-pane .container .row form .list-group .list-group-item {
+  background: none;
+  border: none;
+}
+body main .haval-calculator .container .row .tab-content .tab-pane .container .row form .list-group .list-group-item .form-check .form-check-input {
+  margin: 5px auto;
+}
+body main .haval-calculator .container .row .tab-content .tab-pane .container .row form .btn-credit,
+body main .haval-calculator .container .row .tab-content .tab-pane .container .row form .btn-lizing {
+  width: 100%;
+  background-color: #5a5a5a;
+  color: #f1f1f1;
+  text-transform: uppercase;
+}
+body main .haval-calculator .container .row .tab-content .tab-pane .container .row .credit-calc-box {
+  color: #5a5a5a;
+}
+body main .haval-calculator .container .row .tab-content .tab-pane .container .row .credit-calc-box .list-group .list-group-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  border: none;
+  margin: 10px 0px;
+}
+body main .haval-calculator .container .row .tab-content .tab-pane .container .row .credit-calc-box .list-group .list-group-item .calc-label {
+  margin: 0;
+  margin-right: 20px;
+}
+body footer {
+  padding: 50px 0px;
+  background-color: #333333;
+}
+body footer .container .row {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+body footer .container .row .foo-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+body footer .container .row .foo-logo .navbar-brand {
+  width: 330px;
+}
+body footer .container .row .foo-logo .navbar-brand img {
+  width: 100%;
+}
+body footer .container .row .foo-logo .foo-text {
+  margin: 0;
+  color: #fff;
+  text-align: justify;
+}
+body footer .container .row .foo-copy {
+  margin: 15px 0px;
+  text-align: center;
+  color: #fff;
+}
+body footer .container .row .foo-copy a {
+  text-decoration: none;
+  color: #d7000f;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+body footer .container .row .foo-copy a:hover {
+  color: #fff;
+}
+body footer .container .row .separator {
+  margin-bottom: 15px;
+}
+body footer .container .row .separator::after {
+  width: 130px;
+  display: block;
+  margin: auto;
+  content: "";
+  height: 1px;
+  background: #fff;
+  bottom: 0px;
+  left: 50%;
+  transition: width 0.8s ease, background-color 0.8s ease;
+  -webkit-transition: width 0.8s ease, background-color 0.8s ease;
+  -o-transition: width 0.8s ease, background-color 0.8s ease;
+  -ms-transition: width 0.8s ease, background-color 0.8s ease;
+  -moz-transition: width 0.8s ease, background-color 0.8s ease;
+}
+body footer .container .row .separator::before {
+  content: "";
+  display: block;
+  margin: auto;
+  left: 50%;
+  height: 1px;
+  width: 160px;
+  bottom: -10px;
+  background: #fff;
+  transition: width 0.8s ease, background-color 0.8s ease;
+  -webkit-transition: width 0.8s ease, background-color 0.8s ease;
+  -o-transition: width 0.8s ease, background-color 0.8s ease;
+  -ms-transition: width 0.8s ease, background-color 0.8s ease;
+  -moz-transition: width 0.8s ease, background-color 0.8s ease;
+  margin-bottom: 4px;
+}
+body footer .container .row .foo-contact .foo-title {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+body footer .container .row .foo-contact .address-box .address-list-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  list-style-type: none;
+}
+body footer .container .row .foo-contact .address-box .address-list-group .adr-group-item {
+  margin-bottom: 10px;
+  color: #fff;
+}
+body footer .container .row .foo-contact .address-box .address-list-group .adr-group-item i {
+  margin-right: 10px;
+  color: rgba(215, 0, 15, 0.8);
+}
+body footer .container .row .foo-contact .social-box .social-list-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  list-style-type: none;
+}
+body footer .container .row .foo-contact .social-box .social-list-group .scl-group-item a i {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  color: #5a5a5a;
+  background-color: #fff;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+body footer .container .row .foo-contact .social-box .social-list-group .scl-group-item a:hover i {
+  color: #fff;
+  background-color: rgba(215, 0, 15, 0.8);
+}
+body .ui-selectmenu-menu .ui-menu .ui-menu-item-wrapper {
+  padding-right: 0.4em;
+}
+body .ui-selectmenu-menu .ui-widget.ui-widget-content {
+  height: 125px;
+}
+body .ui-selectmenu-menu .ui-menu .ui-state-active {
+  border: none;
+  background: #f1f1f1;
+}
+body .ui-selectmenu-menu .ui-state-active,
+body .ui-selectmenu-menu .ui-widget-content .ui-state-active,
+body .ui-selectmenu-menu .ui-widget-header .ui-state-active,
+body .ui-selectmenu-menu a.ui-button:active,
+body .ui-selectmenu-menu .ui-button:active,
+body .ui-selectmenu-menu .ui-button.ui-state-active:hover {
+  color: #5a5a5a;
+  border: 1px solid #f1f1f1;
+  background: #f1f1f1;
+}
+body .langWidget {
+  position: relative;
+  top: 13px;
+  height: auto !important;
+  text-align: center;
+}
+
+@media screen and (max-width: 991.98px) {
+  body header .navbar {
+    border: none;
+  }
+  body header .navbar .container .collapse .navbar-nav {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    background-color: #fff;
+  }
+  body header .navbar .container .collapse .navbar-nav .nav-item {
+    width: 100%;
+    border-bottom: 1px solid rgba(241, 241, 241, 0.803);
+  }
+  body header .navbar .container .collapse .navbar-nav .nav-item .nav-link {
+    text-align: center;
+    color: #5a5a5a !important;
+    text-transform: uppercase;
+    -webkit-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+    transition: 0.2s linear;
+  }
+  body header .navbar .container .collapse .navbar-nav .nav-item .nav-link:hover {
+    color: #d7000f;
+  }
+  body header .navbar .container .collapse .navbar-nav .dropdown .dropdown-menu {
+    position: static;
+    top: 100%;
+    border: none;
+    border-radius: 0;
+    background-color: #f1f1f1;
+  }
+  body header .navbar .container .collapse .navbar-nav .dropdown .dropdown-menu .dropdown-item {
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+    transition: 0.2s linear;
+  }
+  body header .navbar .container .collapse .navbar-nav .dropdown .dropdown-menu .dropdown-item:hover {
+    color: #d7000f;
+    background: none;
+  }
+  body header .navbar .container .collapse .navbar-nav .dropdown .dropdown-menu .dropdown-item:active {
+    background: none;
+  }
+  body header .navbar .container .collapse .navbar-nav .dropdown .dropdown-menu.show {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+  body header .navbar .container .collapsing .navbar-nav {
+    display: none;
+  }
+  body header .navbar .container form {
+    position: relative;
+    left: 30%;
+  }
+  body main .haval-news-page {
+    margin: 70px 0px;
+  }
+  body main .haval-news-page .section-title {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  body main .haval-news-page .section-title h2 {
+    color: #5a5a5a;
+    text-transform: uppercase;
+  }
+  body main .haval-news-page .section-title .separator {
+    margin-bottom: 15px;
+  }
+  body main .haval-news-page .section-title .separator::after {
+    width: 30px;
+    display: block;
+    margin: auto;
+    content: "";
+    height: 1px;
+    background: #d7000f;
+    bottom: 0px;
+    left: 50%;
+    transition: width 0.8s ease, background-color 0.8s ease;
+    -webkit-transition: width 0.8s ease, background-color 0.8s ease;
+    -o-transition: width 0.8s ease, background-color 0.8s ease;
+    -ms-transition: width 0.8s ease, background-color 0.8s ease;
+    -moz-transition: width 0.8s ease, background-color 0.8s ease;
+  }
+  body main .haval-news-page .section-title .separator::before {
+    content: "";
+    display: block;
+    margin: auto;
+    left: 50%;
+    height: 1px;
+    width: 60px;
+    bottom: -10px;
+    background: #d7000f;
+    transition: width 0.8s ease, background-color 0.8s ease;
+    -webkit-transition: width 0.8s ease, background-color 0.8s ease;
+    -o-transition: width 0.8s ease, background-color 0.8s ease;
+    -ms-transition: width 0.8s ease, background-color 0.8s ease;
+    -moz-transition: width 0.8s ease, background-color 0.8s ease;
+    margin-bottom: 4px;
+  }
+  body main .haval-news-page .container .row .card {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+    -ms-flex-direction: column !important;
+    -webkit-flex-direction: column !important;
+    flex-direction: column !important;
+  }
+  body main .haval-news-page .container .row .card .card-header {
+    padding: 0;
+    background: none;
+    border: none;
+    border-radius: 0;
+  }
+  body main .haval-news-page .container .row .card .card-header .card-img-top {
+    border-radius: 0;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  body main .haval-news-page .container .row .card:hover {
+    -webkit-transform: translateX(0) !important;
+    -ms-transform: translateX(0) !important;
+    transform: translateX(0) !important;
+    -webkit-box-shadow: 0px 5px 20px rgba(90, 90, 90, 0.5);
+    box-shadow: 0px 5px 20px rgba(90, 90, 90, 0.5);
+  }
+  body main .haval-news-page .container .row .card:hover .card-body .card-title .news-link {
+    color: #d7000f;
+  }
+  body main .haval-special-offers-page .container .row .card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+  }
+  body main .haval-special-offers-page .container .row .card .card-header {
+    width: 100%;
+  }
+  body main .haval-special-offers-page .container .row .card .card-body {
+    padding: 20px;
+  }
+  body main .haval-lizing-offers-page .container .row .card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+  }
+  body main .haval-lizing-offers-page .container .row .card .card-header {
+    width: 100%;
+  }
+  body main .haval-lizing-offers-page .container .row .card .card-body {
+    padding: 20px;
+  }
+  body main .haval-special-program .container .row .program-content .program-list .program-list-item {
+    font-size: 1rem;
+  }
+  body main .haval-strategy .container .row .list-group .list-group-item .card,
+body main .haval-production .container .row .list-group .list-group-item .card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+  body main .haval-strategy .container .row .list-group .list-group-item .card .card-header,
+body main .haval-production .container .row .list-group .list-group-item .card .card-header {
+    width: 100%;
+  }
+  body main .haval-strategy .container .row .list-group .list-group-item .card .card-body,
+body main .haval-production .container .row .list-group .list-group-item .card .card-body {
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+  }
+  body main .haval-strategy .container .row .list-group .list-group-item .card .card-body .card-text,
+body main .haval-production .container .row .list-group .list-group-item .card .card-body .card-text {
+    text-align: justify;
+  }
+  body main .haval-strategy .container .row .list-group .list-group-item:nth-child(even) .card,
+body main .haval-production .container .row .list-group .list-group-item:nth-child(even) .card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+  body main .haval-model-comfort .container .row .list-group .list-group-item .card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  body main .haval-model-comfort .container .row .list-group .list-group-item .card .card-header {
+    width: 100%;
+  }
+  body main .haval-model-comfort .container .row .list-group .list-group-item .card .card-header .card-img-top {
+    max-width: 100%;
+    border-radius: 0;
+  }
+  body main .haval-model-comfort .container .row .list-group .list-group-item .card .card-body {
+    max-width: 100%;
+    padding: 1rem;
+  }
+  body main .haval-model-comfort .container .row .list-group .list-group-item .card .card-body .card-text {
+    color: #5a5a5a;
+    text-align: justify;
+  }
+  body main .haval-model-comfort .container .row .list-group .list-group-item:nth-child(even) .card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  body main .haval-models {
+    background-size: 140% 105%;
+  }
+  body main .haval-models .container-fluid .row .main-carousel {
+    padding: 40px 0px 0px;
+  }
+  body main .haval-models .container-fluid .row .main-carousel .flickity-viewport {
+    height: auto !important;
+    min-height: 250px !important;
+  }
+  body main .haval-models .container-fluid .row .main-carousel .carousel-cell {
+    width: 60%;
+  }
+  body main .haval-offers .container .row .offer-box .box-icon {
+    margin-bottom: 10px;
+  }
+  body main .haval-offers .container .row .offer-box .box-icon i {
+    font-size: 2rem;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  body main .haval-offers .container .row .offer-box:hover {
+    border: 1px solid #fff;
+    background-color: white;
+  }
+  body main .haval-offers .container .row .offer-box .box-title {
+    font-size: 0.75rem;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  body footer .container .row .foo-logo {
+    margin-bottom: 35px;
+  }
+  body footer .container .row .foo-contact {
+    margin-bottom: 35px;
+  }
+  body footer .container .row .foo-contact .social-box .social-list-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    list-style-type: none;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+  body main .haval-offers .container .row .offer-box .box-icon {
+    margin-bottom: 10px;
+  }
+  body main .haval-offers .container .row .offer-box .box-icon i {
+    font-size: 2rem;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  body main .haval-offers .container .row .offer-box:hover {
+    border: 1px solid #fff;
+    background-color: white;
+  }
+  body main .haval-offers .container .row .offer-box .box-title {
+    font-size: 1.05rem;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+}
+@media screen and (max-width: 650px) {
+  body header .navbar .container form {
+    position: relative;
+    left: 15%;
+  }
+  body main .haval-main-slider .carousel .carousel-indicators {
+    margin-bottom: 0;
+  }
+  body main .haval-main-slider .carousel .carousel-inner .carousel-item .slide-cap {
+    position: absolute;
+    left: 6.25%;
+    bottom: 20%;
+  }
+  body main .haval-main-slider .carousel .carousel-inner .carousel-item .slide-cap a {
+    width: 3rem;
+    padding: 5px 10px;
+    font-size: 0.6rem;
+  }
+  body main .haval-models .container-fluid .row .carousel.carousel-nav {
+    display: none;
+  }
+  body main .haval-models .container-fluid .row .main-carousel {
+    padding: 110px 0px 0px;
+  }
+  body main .haval-models .container-fluid .row .main-carousel .flickity-prev-next-button.previous,
+body main .haval-models .container-fluid .row .main-carousel .flickity-prev-next-button.next {
+    top: 50%;
+  }
+  body main .haval-models .container-fluid .row .main-carousel .carousel-cell {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 575.98px) {
+  body main .haval-models .container-fluid .row .carousel.carousel-nav {
+    display: none;
+  }
+  body main .haval-models .container-fluid .row .main-carousel .flickity-prev-next-button.previous,
+body main .haval-models .container-fluid .row .main-carousel .flickity-prev-next-button.next {
+    top: 50%;
+  }
+  body main .haval-models .container-fluid .row .main-carousel .carousel-cell {
+    width: 85%;
+  }
+  body main .haval-offers .container .row .offer-box .box-icon {
+    margin-bottom: 10px;
+  }
+  body main .haval-offers .container .row .offer-box .box-icon i {
+    font-size: 2rem;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  body main .haval-offers .container .row .offer-box:hover {
+    border: 1px solid #fff;
+    background-color: white;
+  }
+  body main .haval-offers .container .row .offer-box .box-title {
+    font-size: 1rem;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

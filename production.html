@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+    <link rel="stylesheet" href="jquery-ui/jquery-ui.min.css" />
+    <script
+      src="https://kit.fontawesome.com/8bd666d0bf.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Haval</title>
+  </head>
+  <body>
+    <!-- Header start -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"></a>
+          <form>
+            <select id="havalLang" class="form-select">
+              <option>AZ</option>
+              <option>RU</option>
+              <option>EN</option>
+            </select>
+          </form>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#haval-navbar"
+            aria-controls="haval-navbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="haval-navbar">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link"
+                  href="about.html"
+                  target="_blank"
+                  id="aboutDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  About
+                </a>
+                <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+                  <a class="dropdown-item" href="history.html" target="_blank"
+                    >History</a
+                  >
+                  <a class="dropdown-item" href="strategy.html" target="_blank"
+                    >Strategy</a
+                  >
+                  <a
+                    class="dropdown-item"
+                    href="production.html"
+                    target="_blank"
+                    >Production</a
+                  >
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link"
+                  id="modelsDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Models
+                </a>
+                <div class="dropdown-menu" aria-labelledby="modelsDropdown">
+                  <div class="row row-cols-1 row-cols-md-3">
+                    <div class="col mb-4">
+                      <a
+                        class="dropdown-item"
+                        href="model.html"
+                        target="_blank"
+                      >
+                        <div class="card h-100">
+                          <div class="card-header">
+                            <img
+                              src="images/model-f7x.png"
+                              class="card-img-top"
+                              alt="haval f7x"
+                            />
+                          </div>
+                          <div class="card-body">
+                            <h5 class="card-title">haval f7x</h5>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col mb-4">
+                      <a class="dropdown-item" href="model.html" target="_blank">
+                        <div class="card h-100">
+                          <div class="card-header">
+                            <img
+                              src="images/model-h2.png"
+                              class="card-img-top"
+                              alt="haval f7x"
+                            />
+                          </div>
+                          <div class="card-body">
+                            <h5 class="card-title">haval h2</h5>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col mb-4">
+                      <a class="dropdown-item" href="model.html" target="_blank">
+                        <div class="card h-100">
+                          <div class="card-header">
+                            <img
+                              src="images/model-h6.png"
+                              class="card-img-top"
+                              alt="haval f7x"
+                            />
+                          </div>
+                          <div class="card-body">
+                            <h5 class="card-title">haval h6</h5>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col mb-4">
+                      <a class="dropdown-item" href="model.html" target="_blank">
+                        <div class="card h-100">
+                          <div class="card-header">
+                            <img
+                              src="images/model-h9.png"
+                              class="card-img-top"
+                              alt="haval f7x"
+                            />
+                          </div>
+                          <div class="card-body">
+                            <h5 class="card-title">haval h9</h5>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link"
+                  href="#"
+                  target="_blank"
+                  id="servicesDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Services
+                </a>
+                <div class="dropdown-menu" aria-labelledby="servicesDropdown">
+                  <a
+                    class="dropdown-item"
+                    href="special-offers.html"
+                    target="_blank"
+                    >All special offers</a
+                  >
+                  <a class="dropdown-item" href="clients.html" target="_blank"
+                    >Corporative clients</a
+                  >
+                  <a
+                    class="dropdown-item"
+                    href="calculator.html"
+                    target="_blank"
+                    >Calculator</a
+                  >
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="news.html" target="_blank">News</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="contact.html" target="_blank">
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Header end -->
+
+    <!-- Main start -->
+    <main>
+      <!-- strategy section start -->
+      <section class="haval-production">
+        <header class="section-title">
+          <h2>Production</h2>
+          <div class="separator"></div>
+        </header>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <div class="card">
+                    <div class="card-header">
+                      <img
+                        src="images/r&d_investment.jpg"
+                        class="card-img-top"
+                        alt="strategy photo"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">R&D Investment</h5>
+                      <p class="card-text">
+                        Based on the strategy of excessive investment, HAVAL has
+                        established 8 R&D centers and technology incubation
+                        laboratories in many countries, covering intelligent
+                        driving, connectivity, new energy, modeling and other
+                        fields. Within the next five years, HAVAL's R&D
+                        investment in the world is expected to exceed 30 billion
+                        yuan. In the future, HAVAL will set up a new technology
+                        incubation laboratory in Silicon Valley, and conduct
+                        cutting-edge technologies research in cooperation with
+                        international technology giants.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="card">
+                    <div class="card-header">
+                      <img
+                        src="images/r&d_center.jpg"
+                        class="card-img-top"
+                        alt="strategy photo"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">HAVAL R&D Center in China</h5>
+                      <p class="card-text">
+                        As one of the largest and most advanced automobile
+                        comprehensive R&D base in China so far, HAVAL Research
+                        and Development Center has five functions including R&D,
+                        trial production, test, modeling and data.There are 14
+                        types of large-scale comprehensive testing laboratories
+                        for performance, NVH&BSR, reliability & durability, new
+                        energy and energy saving
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="card">
+                    <div class="card-header">
+                      <img
+                        src="images/production_3.jpg"
+                        class="card-img-top"
+                        alt="strategy photo"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        High Performance Proving Ground
+                      </h5>
+                      <p class="card-text">
+                        GWM invested 1 billion yuan in building the PG, covering
+                        an area about 1.14 million square meters, including 11
+                        modules, such as high-speed circuit, dynamic platform,
+                        test hills track, city square and handling track, with
+                        more than 100 typical test pavements and a total test
+                        mileage of 45 kilometers.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="card">
+                    <div class="card-header">
+                      <img
+                        src="images/production_1.jpg"
+                        class="card-img-top"
+                        alt="strategy photo"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">HAVAL factories</h5>
+                      <p class="card-text">
+                        In the future, HAVAL will produce global high-quality
+                        SUV products using the second-generation series and
+                        parallel hybrid technology. The technological innovation
+                        in the field of FCEV enables HAVAL to produce the
+                        world’s leading hydrogen-powered SUV products.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="card">
+                    <div class="card-header">
+                      <img
+                        src="images/production_2.jpg"
+                        class="card-img-top"
+                        alt="strategy photo"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">HAVAL in future</h5>
+                      <p class="card-text">
+                        In the future, HAVAL will vigorously develop intelligent
+                        technology, build high-quality and cost-effective mobile
+                        intelligent terminals, and continue to take the lead as
+                        a Chinese auto brand. In terms of intelligent connected
+                        technology, HAVAL builds a full-scene intelligent
+                        service system based on basic technology, user thinking
+                        and personalized service.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- strategy section end -->
+    </main>
+    <!-- Main end -->
+
+    <!-- Footer start -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="foo-logo">
+              <a class="navbar-brand" href="#">
+                <img src="images/gwm-logo.jpg" alt="GWM logo" />
+              </a>
+              <p class="foo-text">
+                HAVAL brand has been dedicating to build a high quality ,
+                exquisite and professional product lineup, and win the
+                consumers' trust by building a brand service of "moving the
+                customers".
+              </p>
+            </div>
+          </div>
+          <div class="col-md-5 offset-md-1">
+            <div class="foo-contact">
+              <!-- <h4 class="foo-title">Contact Us</h4> -->
+              <div class="address-box">
+                <ul class="address-list-group">
+                  <li class="adr-group-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    Babek pr. 282 / Azərbaycan / Bakı
+                  </li>
+                  <li class="adr-group-item">
+                    <i class="fas fa-phone-alt"></i>
+                    (+99455)678-24-24
+                  </li>
+                  <li class="adr-group-item">
+                    <i class="far fa-envelope"></i>
+                    example@gmail.com
+                  </li>
+                </ul>
+              </div>
+              <div class="social-box">
+                <ul class="social-list-group">
+                  <li class="scl-group-item">
+                    <a href="#">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </li>
+                  <li class="scl-group-item">
+                    <a href="#">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li class="scl-group-item">
+                    <a href="#">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li class="scl-group-item">
+                    <a href="#">
+                      <i class="fab fa-youtube"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <p class="foo-copy">
+              ©Copyright 2020 Haval Avto Salonu. Butun muellif huquqlari
+              qorunur.
+              <a href="#" target="_blank">Global website</a>
+            </p>
+            <div class="separator"></div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer end -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="jquery-ui/jquery-ui.min.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="js/startPlugins.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

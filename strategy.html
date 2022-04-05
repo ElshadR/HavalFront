@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+    <link rel="stylesheet" href="jquery-ui/jquery-ui.min.css" />
+    <script
+      src="https://kit.fontawesome.com/8bd666d0bf.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Haval</title>
+  </head>
+  <body>
+     <!-- Header start -->
+     <header>
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"></a>
+          <form>
+            <select id="havalLang" class="form-select">
+              <option>AZ</option>
+              <option>RU</option>
+              <option>EN</option>
+            </select>
+          </form>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#haval-navbar"
+            aria-controls="haval-navbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="haval-navbar">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link"
+                  href="about.html"
+                  target="_blank"
+                  id="aboutDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  About
+                </a>
+                <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+                  <a class="dropdown-item" href="history.html" target="_blank"
+                    >History</a
+                  >
+                  <a class="dropdown-item" href="strategy.html" target="_blank"
+                    >Strategy</a
+                  >
+                  <a
+                    class="dropdown-item"
+                    href="production.html"
+                    target="_blank"
+                    >Production</a
+                  >
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link"
+                  id="modelsDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Models
+                </a>
+                <div class="dropdown-menu" aria-labelledby="modelsDropdown">
+                  <div class="row row-cols-1 row-cols-md-3">
+                    <div class="col mb-4">
+                      <a
+                        class="dropdown-item"
+                        href="model.html"
+                        target="_blank"
+                      >
+                        <div class="card h-100">
+                          <div class="card-header">
+                            <img
+                              src="images/model-f7x.png"
+                              class="card-img-top"
+                              alt="haval f7x"
+                            />
+                          </div>
+                          <div class="card-body">
+                            <h5 class="card-title">haval f7x</h5>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col mb-4">
+                      <a class="dropdown-item" href="model.html" target="_blank">
+                        <div class="card h-100">
+                          <div class="card-header">
+                            <img
+                              src="images/model-h2.png"
+                              class="card-img-top"
+                              alt="haval f7x"
+                            />
+                          </div>
+                          <div class="card-body">
+                            <h5 class="card-title">haval h2</h5>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col mb-4">
+                      <a class="dropdown-item" href="model.html" target="_blank">
+                        <div class="card h-100">
+                          <div class="card-header">
+                            <img
+                              src="images/model-h6.png"
+                              class="card-img-top"
+                              alt="haval f7x"
+                            />
+                          </div>
+                          <div class="card-body">
+                            <h5 class="card-title">haval h6</h5>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col mb-4">
+                      <a class="dropdown-item" href="model.html" target="_blank">
+                        <div class="card h-100">
+                          <div class="card-header">
+                            <img
+                              src="images/model-h9.png"
+                              class="card-img-top"
+                              alt="haval f7x"
+                            />
+                          </div>
+                          <div class="card-body">
+                            <h5 class="card-title">haval h9</h5>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link"
+                  href="#"
+                  target="_blank"
+                  id="servicesDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Services
+                </a>
+                <div class="dropdown-menu" aria-labelledby="servicesDropdown">
+                  <a
+                    class="dropdown-item"
+                    href="special-offers.html"
+                    target="_blank"
+                    >All special offers</a
+                  >
+                  <a class="dropdown-item" href="clients.html" target="_blank"
+                    >Corporative clients</a
+                  >
+                  <a
+                    class="dropdown-item"
+                    href="calculator.html"
+                    target="_blank"
+                    >Calculator</a
+                  >
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="news.html" target="_blank">News</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="contact.html" target="_blank">
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Header end -->
+
+    <!-- Main start -->
+    <main>
+      <!-- strategy section start -->
+      <section class="haval-strategy">
+        <header class="section-title">
+          <h2>Strategy</h2>
+          <div class="separator"></div>
+        </header>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <div class="card">
+                    <div class="card-header">
+                      <img
+                        src="images/strategy_lineup.jpg"
+                        class="card-img-top"
+                        alt="strategy photo"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        Intelligent Connected System in All Product Lineup
+                      </h5>
+                      <p class="card-text">
+                        Equipped with 4G intelligent connected system, all HAVAL
+                        product lineup have a series of functions such as
+                        intelligent voice, online navigation, QQ Music, Koala FM
+                        and intelligent remote control, which makes driving
+                        safer and more convenient, and greatly enriches the
+                        users’ pleasant driving experience.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="card">
+                    <div class="card-header">
+                      <img
+                        src="images/strategy_hilife.jpg"
+                        class="card-img-top"
+                        alt="strategy photo"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        HI-LIFE Intelligent Connected System
+                      </h5>
+                      <p class="card-text">
+                        As a complete AI Internet of Vehicles system, HI-LIFE
+                        ,the new generation of intelligent connected system, has
+                        access to Baidu's powerful ecology of content, service
+                        and application, providing users with a terrific
+                        vehicle-mounted interactive experience.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="card">
+                    <div class="card-header">
+                      <img
+                        src="images/strategy_engine-1.jpg"
+                        class="card-img-top"
+                        alt="strategy photo"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">1.5GDIT Engine</h5>
+                      <p class="card-text">
+                        The 1.5GDIT engine independently developed by Great Wall
+                        Motors won the title of China Best Ten Engine 2017. The
+                        1.5GDIT engine owns 92 patents and has complete
+                        intellectual property rights. CVVL independently
+                        developed by Great Wall Motor is adopted. Currently,
+                        only a few foreign brands such as BMW have similar
+                        engine technology. CVVL not only reduces fuel
+                        consumption by 8.4%, but also improves maximum power by
+                        12.7% and peak torque by 35.7%.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="card">
+                    <div class="card-header">
+                      <img
+                        src="images/strategy_engine-2.jpg"
+                        class="card-img-top"
+                        alt="strategy photo"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">7DCT</h5>
+                      <p class="card-text">
+                        The 7DCT independently developed by Great Wall Motors is
+                        awarded as the World Best Ten Transmission. It is the
+                        first dual-clutch transmission independently developed
+                        by Chinese brands in a true sense, with an integrated
+                        transmission rate up to 95% and ultra-high system
+                        reliability. The 7DCT adopts a system-level energy
+                        consumption reduction scheme, including the use of low
+                        friction bearing and oil seal, low leakage solenoid
+                        valve, low inertia dual clutch module, ultra-low
+                        viscosity lubricating oil, dual pump system, low oil
+                        volume design, achieving extremely high transmission
+                        efficiency.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="card">
+                    <div class="card-header">
+                      <img
+                        src="images/strategy_safety.jpg"
+                        class="card-img-top"
+                        alt="strategy photo"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">ALL-ROUND SAFETY</h5>
+                      <p class="card-text">
+                        Adhering to the vehicle manufacturing concept of “safety
+                        first”, HAVAL aims to produce the safest SUV. HAVAL has
+                        established the design concept of "passenger and driver
+                        safety, pedestrian safety and vehicle safety
+                        three-dimensional protection" (3DP) and took the lead in
+                        establishing the vehicle safety technology R&D system
+                        and the safety performance positive development process
+                        in the industry. So far, Great Wall Motors has been
+                        granted with 114 patents and established 75 enterprise
+                        standards in safety. Meanwhile, HAVAL has formed a
+                        complete set of test, development and verification
+                        system from automobile safety components, system to
+                        vehicle, which not only meets the regulations and
+                        standards and NCAP test and assessment requirements of
+                        China, the European Union and the United States, but
+                        also can be used for the reproduced test of a series of
+                        actual traffic accidents.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- strategy section end -->
+    </main>
+    <!-- Main end -->
+
+    <!-- Footer start -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="foo-logo">
+              <a class="navbar-brand" href="#">
+                <img src="images/gwm-logo.jpg" alt="GWM logo" />
+              </a>
+              <p class="foo-text">
+                HAVAL brand has been dedicating to build a high quality ,
+                exquisite and professional product lineup, and win the
+                consumers' trust by building a brand service of "moving the
+                customers".
+              </p>
+            </div>
+          </div>
+          <div class="col-md-5 offset-md-1">
+            <div class="foo-contact">
+              <!-- <h4 class="foo-title">Contact Us</h4> -->
+              <div class="address-box">
+                <ul class="address-list-group">
+                  <li class="adr-group-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    Babek pr. 282 / Azərbaycan / Bakı
+                  </li>
+                  <li class="adr-group-item">
+                    <i class="fas fa-phone-alt"></i>
+                    (+99455)678-24-24
+                  </li>
+                  <li class="adr-group-item">
+                    <i class="far fa-envelope"></i>
+                    example@gmail.com
+                  </li>
+                </ul>
+              </div>
+              <div class="social-box">
+                <ul class="social-list-group">
+                  <li class="scl-group-item">
+                    <a href="#">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </li>
+                  <li class="scl-group-item">
+                    <a href="#">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li class="scl-group-item">
+                    <a href="#">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li class="scl-group-item">
+                    <a href="#">
+                      <i class="fab fa-youtube"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <p class="foo-copy">
+              ©Copyright 2020 Haval Avto Salonu. Butun muellif huquqlari
+              qorunur.
+              <a href="#" target="_blank">Global website</a>
+            </p>
+            <div class="separator"></div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer end -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="jquery-ui/jquery-ui.min.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="js/startPlugins.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
